@@ -8,8 +8,8 @@
 4. *npm run webpack-server* - It will start Webpack Dev Server. Navigate to localhost:8080
 5. *npm run express* - It will run the express server in case you need it. Navigate to localhost:3000
 
+
 # Now start creating AMAZING things...
 
-
-*Eggboiled is trying to create minimal boilerplate for JS development environment. Know us your comment.
+*Eggboiled is trying to create few minimalistic boilerplate for JS development environment. Know us your comment.*
 
