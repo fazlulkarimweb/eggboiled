@@ -1,0 +1,34 @@
+{
+  "name": "Eggboiled-Project",
+  "version": "1.0.0",
+  "main": "src",
+  "license": "MIT",
+  "scripts": {
+    "webpack-server": "webpack-dev-server --mode=development --config webpack.config.js --inline --hot --watch",
+    "developer": "webpack-dev-server --content-base src --mode=development --config webpack.config.js --inline --hot --watch",
+    "webpack": "webpack --mode=development --config webpack.config.js --watch",
+    "express": "nodemon ./src/express.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.1.0",
+    "nodemon": "^1.17.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react-hot-loader": "^4.0.1"
+  },
+   "babel": {
+    "presets": [
+    "env",
+    "react"
+  ]
+  }
+}
