@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "src",
   "license": "MIT",
-  "scripts": {
-    "webpack-server": "webpack-dev-server --mode=development --config webpack.config.js --inline --hot --watch",
-    "developer": "webpack-dev-server --content-base src --mode=development --config webpack.config.js --inline --hot --watch",
-    "webpack": "webpack --mode=development --config webpack.config.js --watch",
-    "express": "nodemon ./src/express.js"
+ "scripts": {
+    "build": "webpack-dev-server --mode=development --config webpack.config.js --inline --hot --watch",
+    "dev": "webpack-dev-server --content-base src --mode=development --config webpack.config.js --inline --hot --watch",
+    "watch": "webpack --mode=development --config webpack.config.js --watch",
+    "debug": "webpack",
+    "express": "nodemon ./src/express.js",
+    "debug1": "webpack-dev-server"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -23,12 +25,14 @@
   },
   "dependencies": {
     "express": "^4.16.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
     "react-hot-loader": "^4.0.1"
   },
-   "babel": {
+  "babel": {
     "presets": [
-    "env",
-    "react"
-  ]
+      "env",
+      "react"
+    ]
   }
 }
