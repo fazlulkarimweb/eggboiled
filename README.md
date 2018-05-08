@@ -11,5 +11,5 @@
 
 # Now start creating AMAZING things...
 
-*Eggboiled is trying to create few minimalistic boilerplate for JS development environment. Know us your comment.*
+*Eggboiled is trying to create few minimalistic boilerplate for JS development environment. What do you think?*
 
